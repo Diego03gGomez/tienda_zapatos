@@ -52,7 +52,7 @@
     <i v-on:click="toglemenu()"   class="fa-solid fa-cart-shopping carrito"></i>
     
     <div class="cont_img_avatar">
-       <img src="img_avatar.png" alt="">
+       <img src="https://th.bing.com/th/id/OIP.rIsI3TvodysyTi_2VOGK3gHaHa?pid=ImgDet&rs=1" alt="">
     </div>
 </div>
 
