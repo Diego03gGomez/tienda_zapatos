@@ -52,7 +52,7 @@
     <i v-on:click="toglemenu()"   class="fa-solid fa-cart-shopping carrito"></i>
     
     <div class="cont_img_avatar">
-       <img src="https://th.bing.com/th/id/OIP.rIsI3TvodysyTi_2VOGK3gHaHa?pid=ImgDet&rs=1" alt="">
+       <img src="https://th.bing.com/th/id/OIP.Gekjb7yIYC1nmLUsMwjzzwAAAA?pid=ImgDet&w=100&h=100&c=7&dpr=1,3" alt="">
     </div>
 </div>
 
@@ -81,19 +81,19 @@
 
 <div class="otros_productos">
 <div v-on:click="seleccionar_imagen($event)"  class="card">
-<img class="el_seleccionado" src="img_prod1.jpg" alt="">
+<img class="el_seleccionado" src="https://www.smooth.fr/wp-content/uploads/sites/39/2023/01/chaussure-1-1097x1536.jpg" alt="">
 </div>
 
 <div v-on:click="seleccionar_imagen($event)"   class="card">
-<img src="img_prod2.jpg" alt="">
+<img src="https://sneakersfan.nl/wp-content/uploads/2020/11/mojtaba-fahiminia-T9IqDhJVhEU-unsplash-1463x2048.jpg" alt="">
 </div>
 
 <div v-on:click="seleccionar_imagen($event)"    class="card">
-<img src="img_prod3.jpg" alt="">
+<img src="https://www.s-treatment.com/_p/acre/8718/images/pc/d1ac8cf0.jpg" alt="">
 </div>
 
 <div v-on:click="seleccionar_imagen($event)"   class="card">
-<img src="img_prod4.jpg" alt="">
+<img src="https://stock-solution.de/app/uploads/2022/02/mojtaba-fahiminia-CQzCMx_wvk4-unsplash-1.jpg" alt="">
 </div>
 
 
@@ -163,7 +163,7 @@ contador: 0,
 guardados: [
    
 ],
-imagen_principal : "img_prod1.jpg"
+imagen_principal : "https://www.smooth.fr/wp-content/uploads/sites/39/2023/01/chaussure-1-1097x1536.jpg"
   
     }
 },
