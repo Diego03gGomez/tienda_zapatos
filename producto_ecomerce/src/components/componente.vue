@@ -52,7 +52,7 @@
     <i v-on:click="toglemenu()"   class="fa-solid fa-cart-shopping carrito"></i>
     
     <div class="cont_img_avatar">
-       <!---- <img src="img_avatar.png" alt="">--->
+       <img src="img_avatar.png" alt="">
     </div>
 </div>
 
@@ -161,7 +161,7 @@ data() {
 precio: 125,
 contador: 0,
 guardados: [
-    /*{img: "img_prod1.jpg", cantidad: 2 },*/
+   
 ],
 imagen_principal : "img_prod1.jpg"
   
