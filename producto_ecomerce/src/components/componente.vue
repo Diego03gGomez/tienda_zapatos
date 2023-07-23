@@ -50,8 +50,9 @@
 
 <div class="nav2">
     <i v-on:click="toglemenu()"   class="fa-solid fa-cart-shopping carrito"></i>
+    
     <div class="cont_img_avatar">
-        <img src="./imagenes/img_avatar.png" alt="">
+        <img src="img_avatar.png" alt="">
     </div>
 </div>
 
