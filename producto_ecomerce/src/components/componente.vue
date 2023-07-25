@@ -187,6 +187,7 @@ let producto = document.querySelector(".producto_principal").querySelector("img"
 let cantidadelegida = document.querySelector(".numero").textContent
 
 this.guardados.push({img : producto, cantidad : cantidadelegida})
+this.contador = 0;
 
 },
 seleccionar_imagen(event){
