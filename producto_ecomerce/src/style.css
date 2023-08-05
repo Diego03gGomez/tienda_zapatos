@@ -83,11 +83,13 @@ object-fit: cover;
 
 .card img{
   width: 60%;
+  cursor: pointer;
   border-radius: 15px;
 }
 
 .card{
   text-align: center;
+ 
 }
 
 
