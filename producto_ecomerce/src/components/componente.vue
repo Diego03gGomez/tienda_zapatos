@@ -1,19 +1,22 @@
 <template lang="">
     <div>
-      <header>
-   
-
-
-<div class="cont_header">
-    <i v-on:click="menu_desplegable()" class="fa-solid fa-bars icono"></i>
-
-<div class="cont_oculto">
-<a href="">Collections</a>
+        <div class="cont_oculto">
+<div class="menu_oculto">
+<a v-on:click="cerrar_menu()" ><i class="fa-solid fa-xmark equis"></i></a>
+    <a href="">Collections</a>
 <a href="">Men</a>
 <a href="">Woman</a>
 <a href="">About</a>
 <a href="">Contact</a>
 </div>
+</div>
+
+
+      <header>
+<div class="cont_header">
+    <i v-on:click="menu_desplegable()" class="fa-solid fa-bars icono"></i>
+
+
 
 
 <div class="nav1">
@@ -218,8 +221,12 @@ eliminar(index){
     this.guardados.splice(index,1);
 },
 menu_desplegable(){
+   let menu = document.querySelector(".cont_oculto");
+   menu.classList.toggle("aparecer")
+},
+cerrar_menu(){
     let menu = document.querySelector(".cont_oculto");
-    menu.classList.toggle("trasladar")
+   menu.classList.toggle("aparecer")
 }
 
 
