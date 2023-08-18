@@ -421,7 +421,7 @@ border-radius: 5px;
 }
 
 
-@media (max-width: 400px){
+@media (max-width: 500px){
   .cont_botones{
     flex-direction: column;
   }
