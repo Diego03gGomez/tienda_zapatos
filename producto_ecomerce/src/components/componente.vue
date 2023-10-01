@@ -96,7 +96,7 @@
 </div>
 
 <div v-on:click="seleccionar_imagen($event)"   class="card">
-<img src="https://stock-solution.de/app/uploads/2022/02/mojtaba-fahiminia-CQzCMx_wvk4-unsplash-1.jpg" alt="">
+<img src="https://e-commerce-product-page-iota-two.vercel.app/images/image-product-4.jpg" alt="">
 </div>
 
 
